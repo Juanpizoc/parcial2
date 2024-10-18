@@ -90,7 +90,7 @@ public class ContrasenaController {
         return new ResponseEntity<>("La serie de Fibonacci de " + num + " es: " + resultado, HttpStatus.OK);
     }
 	@GetMapping("/validarMultiplo")
-    public ResponseEntity<String> validarMultiplo(@RequestParam int numero) {
+    public ResponseEntity<String> esMultiploDeTres(@RequestParam int numero) {
         String resultado = repository.esMultiploDeTres(numero);
         return ResponseEntity.ok(resultado);
     }
