@@ -3,6 +3,8 @@
 
 ## punto 1
 
+```sql
+
 CREATE OR REPLACE FUNCTION validar_correo(p_correo VARCHAR2)
 RETURN VARCHAR2
 IS
@@ -23,10 +25,10 @@ BEGIN
 END;
 /  
     
-    
+```    
 ## punto 2    
 
-
+``` sql
 CREATE OR REPLACE FUNCTION es_multiplo_de_tres(p_numero NUMBER)
 RETURN VARCHAR2
 IS
@@ -39,3 +41,4 @@ BEGIN
 END;
 /
 
+```
